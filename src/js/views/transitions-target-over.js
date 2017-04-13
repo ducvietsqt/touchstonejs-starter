@@ -9,6 +9,7 @@ module.exports = React.createClass({
 		var self = this;
 		this.setTimeout(function () {
 			self.transitionTo('app:main', { transition: 'fade' });
+			alert(1);
 		}, 1000);
 	},
 	render () {

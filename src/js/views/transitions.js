@@ -96,6 +96,7 @@ module.exports = React.createClass({
 							</UI.Item>
 						</Link>
 					</UI.GroupBody>
+					
 				</UI.Group>
 			</Container>
 		);
